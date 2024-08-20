@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Us</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<style>
+
+  /* Header/Logo Title */
+.header {
+  padding: 30px; 10px
+  text-align: left;
+  background: #66cd00;
+  color: black;
+  font-size: 30px;
+}
+
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #66cd00;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #66cd00;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the footer */
+footer {
+  background-color: #66cd00;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+}
+
+</style>
+</head>
+<body>
+
+<header>
+<h3>Contact Us</h3>
+</header>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="Trinidad And Tobago">Trinidad And Tobago</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+<div class="clearfix">
+  <div class="box" style="background-color:#FFFFFFFF">
+  <img src="img_logo.jpg" alt="Logo"Style="width:30px; height:30px;">
+<p>Secret Scents. Valencia Trinidad</p>
+<p>secretscents84@gmail.com</p>
+<p>18683306970</p>
+
+  </div>
+  <div class="box" style="background-color:#FFFFFF">
+  <ul>
+
+  <h3>Quick Links</h3>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="About us.html">About Us</a></li>
+  <li><a href="Account.html">Account</a></li>
+  <li><a href="store.html">Store</a></li>
+  <li><a href="check out.html">Check out</a></li>
+  <li><a href="contact Us.html">Contact Us</a></li>
+
+
+</ul>
+
+  </div>
+  <div class="box" style="background-color:#FFFFFF">
+
+  <h3>Connect with us</h3>
+<!-- Add font awesome icons -->
+
+
+<a href="https://www.facebook.com/search/top?q=secret%20scents">
+<ion-icon name="logo-facebook"></ion-icon>
+
+</a>
+
+<a href="https://www.instagram.com/secre_tscents?igsh=MWs3cjRiOGwxaHJtdw==">
+<ion-icon name="logo-instagram"></ion-icon>
+</a>
+
+
+<a href="https://www.tiktok.com/@secre_tscents?_t=8orEUXApzAz&_r=1">
+<ion-icon name="logo-tiktok"></ion-icon>
+
+</a>
+
+  </div>
+</div>
+
+
+<footer>
+<p>Copyright &copy 2024 Secret Scents All rights reserved</p>
+
+</footer>
+
+
+</body>
+</html>
